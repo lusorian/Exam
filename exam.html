@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <h1 class="header">Obtén el número más grande</h1>
+    <div class="container">
+        <label class="input-label" for="arreglo">Ingresa los números del arreglo:</label>
+        <img src="C:\Users\hitss\Documents\Programación Básica\Examen\tooltip_Informational.svg" width="24"
+          height="20" class="tooltip-1" id="tooltipInfoIcon">
+        <span  class="tooltip-box-1">Ingresa los números separándolos con la tecla"space"</span>
+        <input class="input-field-1" type="text" id="arreglo">
+    </div>
+    <div class="container-2">
+        <label class="input-label" for="posicion">¿Hasta qué posición quieres?:</label>
+        <img src="C:\Users\hitss\Documents\Programación Básica\Examen\tooltip_Informational.svg" width="24"
+          height="20" class="tooltip-2" id="tooltipInfoIcon">
+        <span  class="tooltip-box-2">Ingresa del 1 en adelante</span>
+        <input class="input-field-2" type="text" id="posicion">
+    </div>
+    <p>
+    <button class="button" onclick="encontrarNumero()">Obtener número</button>
+    </p>
+    <div class="result-1" id="resultado1" style="padding-left: 200px;"></div>
+  <div class="result-2" id="resultado2" style="padding-left: 325px;"></div>
+<script src="exam.js"></script>
+</body>
+</html>
