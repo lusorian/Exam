@@ -4,7 +4,7 @@ background-color:#f2f2f2;
 }
 
 .container-2{
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .header{
@@ -16,6 +16,7 @@ background-color:#f2f2f2;
   line-height: normal;
   font-stretch: normal;
   letter-spacing: 0.01px;
+  padding-bottom: 8px;
 
 }
 
@@ -28,8 +29,8 @@ background-color:#f2f2f2;
   line-height: normal;
   font-stretch: normal;
   letter-spacing: 0.01px;
-
 }
+
 .input-field-1{
   width: 20%;
   padding: 5px;
@@ -51,7 +52,7 @@ input[type="text"]:focus {
     outline-color: #007abc;
   }
 
-.tooltip-1 {
+.fa-solid {
     cursor: pointer;
     margin-top: 15px;
 }
@@ -61,10 +62,10 @@ input[type="text"]:focus {
   font-size: 12px;
   position: absolute;
   z-index: auto;
-  padding: 5px 10px;
+  padding: 3px 10px;
   border-radius: 5px;
-  left: 135px;
-  top:60px;
+  left: 130px;
+  top:67px;
   background: rgb(0, 122, 188);
   font-family: 'Open Sans';
   color: white;
@@ -81,13 +82,8 @@ input[type="text"]:focus {
   left: calc(50% - 7px);
 }
 
-.tooltip-1:hover + .tooltip-box-1{
+.fa-solid:hover + .tooltip-box-1{
   display: inline-block;
-}
-
-.tooltip-2 {
-    cursor: pointer;
-    margin-top: 15px;
 }
 
 .tooltip-box-2{
@@ -95,10 +91,10 @@ input[type="text"]:focus {
   font-size: 12px;
   position: absolute;
   z-index: auto;
-  padding: 5px 10px;
+  padding: 3px 10px;
   border-radius: 5px;
-  left: 192px;
-  top:125px;
+  left: 187px;
+  top:137px;
   background: rgb(0, 122, 188);
   font-family: 'Open Sans';
   color: white;
@@ -115,7 +111,7 @@ input[type="text"]:focus {
   left: calc(50% - 7px);
 }
 
-.tooltip-2:hover + .tooltip-box-2{
+.fa-solid:hover + .tooltip-box-2{
   display: inline-block;
 }
 
